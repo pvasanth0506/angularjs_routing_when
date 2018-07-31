@@ -6,9 +6,9 @@ app.config(($routeProvider) => {
             templateUrl: '../assets/home.html'
         })
         .when('/about', {
-            templateUrl: '../assets/about.html'
+            templateUrl: '/assets/about.html'
         })
         .when('/contact', {
-            templateUrl: '../assets/contact.html'
+            templateUrl: '/assets/contact.html'
         });
 });
